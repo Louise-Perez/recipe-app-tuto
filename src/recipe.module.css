@@ -1,0 +1,42 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    width: 40%;
+}
+
+.text {
+    width: 60%;
+}
+
+.text h1 {
+    text-decoration: underline;
+}
+
+.text ul {
+    color: grey;
+}
+
+.text a {
+    color: black;
+}
+
+.image {
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 900px)
+{
+    .recipe {
+        width: 80%;
+    }
+
+}
